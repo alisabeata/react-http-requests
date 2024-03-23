@@ -1,7 +1,6 @@
-import React from 'react';
-
-import Movie from './Movie';
-import classes from './MoviesList.module.css';
+import React from 'react'
+import Movie from './Movie'
+import classes from './MoviesList.module.css'
 
 const MovieList = (props) => {
   return (
@@ -15,7 +14,7 @@ const MovieList = (props) => {
         />
       ))}
     </ul>
-  );
-};
+  )
+}
 
-export default MovieList;
+export default MovieList
